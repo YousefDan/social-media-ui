@@ -1,7 +1,7 @@
 const TopbarLeft = () => {
   return (
     <div className="topbarLeft">
-      <span className="logo">Lamasocial</span>
+      <span className="logo">Social Media</span>
     </div>
   );
 };

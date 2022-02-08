@@ -6,6 +6,7 @@
   align-items: center;
   position: sticky;
   top: 0;
+  padding: 0 10px;
 }
 /* Topbar Left */
 .topbarLeft {
@@ -13,7 +14,6 @@
 }
 .logo {
   font-size: 24px;
-  margin-left: 21px;
   font-weight: bold;
   color: white;
   cursor: pointer;
@@ -32,11 +32,13 @@
 }
 .searchIcon {
   font-size: 21px !important;
-  margin-left: 10px;
+  margin: 0 7px;
 }
 .searchInput {
   border: none;
-  width: 70%;
+  width: 80%;
+  font-size: 17px;
+  height: 100%;
 }
 .searchInput:focus {
   outline: none;
@@ -85,4 +87,23 @@
   object-fit: cover;
   border-radius: 50%;
   cursor: pointer;
+}
+
+/* Media Queries */
+@media (max-width: 780px) {
+  .topbarContainer {
+    height: 110px;
+    align-items: flex-start;
+    padding-top: 7px;
+  }
+  .logo {
+    font-size: 17px;
+  }
+  .topbarCenter {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+  }
 }
