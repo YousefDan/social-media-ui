@@ -3,7 +3,6 @@
     height: calc(100vh - 50px);
     overflow-y: scroll;
 }
-
 .sidebarWrapper {
     padding: 21px;
 }
@@ -15,7 +14,6 @@
 .sidebarIcon {
     margin-right: 17px;
 }
-
 .sidebarButton {
     cursor: pointer;
     width: 150px;
@@ -24,10 +22,10 @@
     border-radius: 7px;
     font-weight: 700;
 }
-
 .sidebarHr {
   margin: 21px 0;
 }
+/* Sidebar Friend List */
 .sidebarFriend {
     display: flex;
     align-items: center;
