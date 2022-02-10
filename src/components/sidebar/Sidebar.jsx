@@ -1,6 +1,7 @@
 import "./sidebar.css";
 import SidebarFriendList from "./SidebarFriendList";
 import SidebarList from "./SidebarList";
+import { Users } from "../../dummyData";
 
 const Sidebar = () => {
   return (
@@ -9,7 +10,7 @@ const Sidebar = () => {
         <SidebarList />
         <button className="sidebarButton">Show More</button>
         <hr className="sidebarHr" />
-        <SidebarFriendList />
+        <SidebarFriendList users={Users} />
       </div>
     </section>
   );

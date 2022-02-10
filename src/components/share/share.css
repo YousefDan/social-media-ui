@@ -30,7 +30,6 @@
 .shareHr {
   margin: 21px;
 }
-
 .shareBottom {
   display: flex;
   align-items: center;
@@ -51,7 +50,7 @@
   margin-right: 4px !important;
 }
 .shareOptionText {
-  font-size: 14px;
+  font-size: 12px;
   font-weight: 500;
 }
 .shareButton {
@@ -63,4 +62,45 @@
   color: white;
   font-weight: 500;
   margin-right: 21px;
+}
+/* Media Queries */
+@media (max-width: 991px) {
+  .share {
+    height: auto;
+  }
+  .shareBottom {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0;
+  }
+  .shareButton {
+    width: 100%;
+    font-size: 21px;
+    margin: 17px 0;
+  }
+  .shareOptionText {
+    font-size: 15px;
+  }
+}
+@media (max-width: 780px) {
+  .shareBottom {
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
+  .shareOptions {
+    flex-direction: column;
+    margin-left: 0;
+    margin-bottom: 17px;
+  }
+  .shareOption {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+  .shareOptionText {
+    font-size: 21px;
+  }
+  .shareButton {
+    margin: 0;
+  }
 }

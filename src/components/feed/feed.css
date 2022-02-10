@@ -4,3 +4,9 @@
 .feedWrapper {
     padding: 21px;
 }
+
+@media (max-width: 780px) {
+   .feed {
+       width: 100%;
+   }
+}
