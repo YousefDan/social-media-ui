@@ -2,6 +2,7 @@ import "./profile.css";
 import Feed from "../../components/feed/Feed";
 import Rightbar from "../../components/rightbar/Rightbar";
 import Sidebar from "../../components/sidebar/Sidebar";
+import ProfileRightbar from "./ProfileRightbar";
 
 const Profile = () => {
   return (
@@ -24,7 +25,7 @@ const Profile = () => {
         </div>
         <div className="profileRightBottom">
           <Feed />
-          <Rightbar profile/>
+          <ProfileRightbar />
         </div>
       </div>
     </div>

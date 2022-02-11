@@ -2,7 +2,7 @@ import "./rightbar.css";
 import { Users } from "../../dummyData";
 import Online from "../online/Online";
 
-const Rightbar = ({profile}) => {
+const Rightbar = () => {
   return (
     <section className="rightbar">
       <div className="rightbarWrapper">
